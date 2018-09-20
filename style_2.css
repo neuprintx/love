@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css?family=Iceberg');
+html {
+  background: url(http://www.newhdwallpaper.in/wp-content/uploads/2016/04/New-tree-plant-green-nature-amazing-wallpapers.jpg) no-repeat center center fixed ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: monospace;
+}
+body, input, button {
+  font-family: 'Iceberg', sans-serif;
+}
+#admin{
+    color:white;
+    font-size:30px;
+    font-weight:100;
+    
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .login {
+    margin-top: 1%;
+    width: 550px;
+    font-size: 1.7em;
+    min-height: 0;
+  }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .login {
+    margin-top: 0;
+    width: 500px;
+    font-size: 1.3em;
+    min-height: 0;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .login {
+    margin-top: 0;
+    width: 400px;
+    font-size: 1em;
+    min-height: 0;
+  }
+  .login h2 {
+    margin-top: 0;
+  }
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  .login {
+    margin-top: 0;
+    width: 200px;
+    font-size: 0.7em;
+    min-height: 0;
+  }
+}
+#inp-text {
+  
+  margin-top: 5px;
+  border-bottom: 1px solid rgb(217, 217, 217);
+  opacity:5;
+}
+#inp-text:focus {
+  border: none;
+}
+.inp-btn:hover{
+    background-color: olive;
+}
+snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.snowflake {
+    padding-left: 15px;
+    font-family: Cambria, Georgia, serif;
+    font-size: 14px;
+    line-height: 24px;
+    position: fixed;
+    color: red;
+    user-select: none;
+    z-index: 1000;
+}
+.snowflake:hover {
+    cursor: default;
+}
+
+.ZoM img{
+-webkit-transition-duration: 0.5s;
+-moz-transition-duration: 0.5s;
+-o-transition-duration: 0.5s;
+margin: 0 10px 5px 0;
+}
+
+.ZoM img:hover{
+-webkit-transform:scale(1.1);
+-moz-transform:scale(1.1);
+-o-transform:scale(1.1);
+box-shadow:0px 0px 30px gray;
+-webkit-box-shadow:0px 0px 30px gray;
+-moz-box-shadow:0px 0px 30px gray;
+opacity: 1;
+}
+
+.Passss {
+   
+    background-color:white;
+    border: 2px solid red;
+    border-radius: 30px;
+    color: white;
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+}
+
+.Passss:hover {
+    background-color:bkack;
+    color:white;
+    border: -2px solid  ;
+} 
+
+
+.ZooM {
+   
+    background-color:white;
+    border: 2px solid red;
+    border-radius: 30px;
+    color: black;
+    width: 50%;
+    height: 5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+}
+
+.ZooM:hover {
+    background-color:white;
+    color:black;
+    border: -2px solid  ;
+} 
+
+
+.button {
+    margin-top: 400px;
+    background:url(https://b.top4top.net/p_802c8vj20.jpg);
+    border: 2px solid White ;
+    border-radius: 30px;
+    color: white;
+    width: 570px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    font-family: 'Iceberg', cursive;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+}
+
+.button1:hover {
+    background:url(https://a.top4top.net/p_802sskqn0.jpg);
+    color:white;
+    border: 2px solid White  ;
+    width: 600px;
+    font-size: 35px;
+    height: 50px;
+font-family: 'Iceberg', cursive;
+}
+
+.button2 {
+    margin-top: 400px;
+    background:url(https://b.top4top.net/p_802c8vj20.jpg);
+    border: 2px solid White ;
+    border-radius: 30px;
+    color: white;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Iceberg', cursive;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+}
+
+.button2:hover {
+    background:url(https://a.top4top.net/p_802sskqn0.jpg);
+    color:white;
+    border: 2px solid White  ;
+    width: 400px;
+    font-size: 20px;
+    height: 40px;
+font-family: 'Iceberg', cursive;
+}
+
+﻿h1{
+  font-size: 30px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 15px;
+}
+table{
+  width:100%;
+  table-layout: fixed;
+  border-color: black;
+}
+.tbl-header{
+ font-family: 'Iceberg', cursive; background:url(https://f.top4top.net/p_8027q6580.jpg);
+  border: 2px solid black;
+ }
+.tbl-content{
+  height:920px;
+  overflow-x:auto;
+  margin-top: 0px;
+  border: 20px solid black;
+ font-family: 'Iceberg', cursive; background:url(https://a.top4top.net/p_802rev850.jpg);
+}
+th{
+  font-family: 'Iceberg', cursive;
+  padding: 20px 15px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 30px;
+  color: white;
+  text-transform: uppercase;
+}
+
+code{
+  padding: 20px 15px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 10px;
+  color: white;
+ font-family: 'Iceberg', cursive; background:url(https://f.top4top.net/p_8027q6580.jpg);
+  border-radius: 30px;
+  text-transform: uppercase;
+}
+
+td{
+  font-family: 'Iceberg', cursive;
+  padding: 15px;
+  text-align: left;
+  vertical-align:middle;
+  font-weight: 300;
+  font-size: 16px;
+  color: #fff;
+  border-bottom: solid 1px rgba(255,255,255,0.1);
+}
+
+
+/* demo styles */
+
+@import url('https://fonts.googleapis.com/css?family=Iceberg');
+body{
+  font-family: 'Iceberg', cursive;
+}
+section{
+  margin: 50px;
+}
+
+
+/* follow me template */
+.made-with-love {
+  margin-top: 40px;
+  padding: 10px;
+  clear: left;
+  text-align: center;
+  font-size: 10px;
+  font-family: 'Iceberg', cursive;
+  color: #fff;
+}
+.made-with-love i {
+  font-style: normal;
+  color: #F50057;
+  font-size: 14px;
+  position: relative;
+  top: 2px;
+}
+.made-with-love a {
+  color: #fff;
+  text-decoration: none;
+}
+.made-with-love a:hover {
+  text-decoration: underline;
+}
+
+
+/* for custom scrollbar for webkit browser*/
+
+::-webkit-scrollbar {
+    width: 6px;
+} 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+} 
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+}
+
+
+
+
+section2{
+  margin: 50px;
+}
+
+dtable{
+  width:100%;
+  table-layout: fixed;
+  border-color: black;
+}
+.tbl-header2{
+ font-family: 'Iceberg', cursive; background:url(https://f.top4top.net/p_8027q6580.jpg);
+  border: 2px solid black;
+ }
+.tbl-content2{
+  height:395px;
+  overflow-x:auto;
+  margin-top: 0px;
+  border: 20px solid black;
+ font-family: 'Iceberg', cursive; background:url(https://a.top4top.net/p_802rev850.jpg);
+}
+
+.tbl-content3{
+  height:600px;
+  overflow-x:auto;
+  margin-top: 0px;
+  border: 20px solid black;
+ font-family: 'Iceberg', cursive; background:url(https://a.top4top.net/p_802rev850.jpg);
+}
+
+.tbl-content1{
+  height:770px;
+  overflow-x:auto;
+  margin-top: 0px;
+  border: 20px solid black;
+ font-family: 'Iceberg', cursive; background:url(https://a.top4top.net/p_802rev850.jpg);
+}
+
+th2{
+  font-family: 'Iceberg', cursive;
+  padding: 20px 15px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 30px;
+  color: white;
+  text-transform: uppercase;
+}
+td2{
+  font-family: 'Iceberg', cursive;
+  padding: 15px;
+  text-align: left;
+  vertical-align:middle;
+  font-weight: 300;
+  font-size: 16px;
+  color: #fff;
+  border-bottom: solid 1px rgba(255,255,255,0.1);
+}
+code9 {
+    padding: 2px 4px;
+    font-size: 140%;
+    color: white;
+    background-color: red;
+    border-radius: 25px;
+}
